@@ -69,7 +69,7 @@ char ba_get(bitarray_t *b, long index)
 
 long ba_size(bitarray_t *b)
 {
-        return 8 * b->size;
+        return 32 * b->size;
 }
 
 void ba_destroy(bitarray_t *b)
