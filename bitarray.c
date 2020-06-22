@@ -2,7 +2,7 @@
 
 struct bitarray_t
 {
-        int *bits;
+        int32_t *bits;
         int64_t size;
 };
 
