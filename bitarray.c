@@ -59,7 +59,7 @@ int ba_flip_bit(bitarray_t *b, long index)
         return 0;
 }
 
-char ba_get(bitarray_t *b, long index)
+char ba_get_bit(bitarray_t *b, long index)
 {
         long i = index / 32;
         if (!b || index < 0 || i >= b->size)

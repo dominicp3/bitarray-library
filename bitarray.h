@@ -11,7 +11,7 @@ int ba_set_all(bitarray_t *b);
 int ba_clear_bit(bitarray_t *b, long index);
 int ba_clear_all(bitarray_t *b);
 int ba_flip_bit(bitarray_t *b, long index);
-char ba_get(bitarray_t *b, long index);
+char ba_get_bit(bitarray_t *b, long index);
 long ba_size(bitarray_t *b);
 void ba_destroy(bitarray_t *b);
 
